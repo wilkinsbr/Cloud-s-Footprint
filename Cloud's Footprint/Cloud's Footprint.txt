@@ -1,0 +1,76 @@
+README
+
+2/24
+Physical Computing
+Ambient Data Display
+
+Brian Wilkins
+Fridahan Basame
+
+
+
+
+Cloud’s Footprint
+
+This ambient data display shows, through the frequency of flashing LED’s, the amount of power that the average human uses. The Cloud has two primary modes. The first mode has the red (streaming), blue (web), green (games), and yellow (social) LED’s go in a sequence. In this case, the number of times that each pair of colored lights flash per minuet indicates the average person’s Kw per day depending on the category. The second case has all the onboard LED’s flash simultaneously at a different rhythm. When in this mode, every “blink” indicates a Wh used per person on a timescale of 1 hour to 1 minuet. 
+
+This display is intended to be viewed in an educational environment such as a museum or classroom, by children and young adults. As these two groups make up the majority of internet users, it is important for them to remember that the digital world has a physical impact.
+
+
+
+
+MATH
+
+
+
+A.
+
+.06 kWh per GB (George Kamiya)
+
+Q1 434.9
+Q2 490.7
+Q3 495.5
+Q4 599.3
+
+2020.4 GB per person per year average
+5.53534247 GB per person per day 
+5.53534247 * .06 (kWh per GB) --> .33 kWh per person per day
+
+
+
+330 Wh per person per day
+
+330/24 --> 13.75 per hour per person.
+
+60/13.75 --> 4.36 seconds 
+
+B.
+330 Wh per person per day
+3.3 Wh = 1%
+
+Streaming = 61% --> 201.3 Wh per person per day
+201.3/24 --> 8.3875 seconds --> .2980 seconds between blinks
+
+Web = 18.7% --> 61.71 Wh per person per day
+61.71/24 --> 2.57125 --> .9722 seconds
+
+Games = 12.2% --> 40.26 Wh per person per day
+40.26/24 --> 1.6775 --> 1.4903 seconds
+
+Social = 7.7% --> 25.41 Wh per person per day
+25.41/24 --> 1.05875 --> 2.35849 seconds
+
+
+
+
+SOURCES
+
+
+
+[The carbon footprint of streaming video: fact-checking the headlines – Analysis - IEA](https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines)
+
+[Average monthly data usage nears half a terabyte as 1-Gig adoption climbs - study | Light Reading](https://www.lightreading.com/broadband/average-monthly-data-usage-nears-half-terabyte-as-1-gig-adoption-climbs---study/d/d-id/781811#:~:text=The%20weighted%20average%20reached%20495.5,of%20434.9GB%2C%20said%20OpenVault.)
+
+https://openvault.com/wp-content/uploads/2023/02/OVBI_4Q22_Report.pdf
+
+[Report: Where Does the Majority of Internet Traffic Come From? | NCTA — The Internet & Television Association](https://www.ncta.com/whats-new/report-where-does-the-majority-of-internet-traffic-come)
