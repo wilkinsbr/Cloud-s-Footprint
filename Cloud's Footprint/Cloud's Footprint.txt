@@ -12,7 +12,7 @@ Fridahan Basame
 
 Cloud’s Footprint
 
-This ambient data display shows, through the frequency of flashing LED’s, the amount of power that the average human uses online. The Cloud has two primary modes. The first mode has the red (streaming), blue (web), green (games), and yellow (social) LED’s go in a sequence. In this case, the number of times that each pair of colored lights flash per minuet indicates the average person’s Kw per day depending on the category. The second case has all the onboard LED’s flash simultaneously at a different rhythm. When in this mode, every “blink” indicates a Wh used per person on a timescale of 1 hour to 1 minuet. 
+This ambient data display shows, through the frequency of flashing LED’s, the amount of power that the average human uses online. The Cloud has two primary modes. The first mode has the red (streaming), blue (web), green (games), and yellow (social) LED’s go in a sequence. In this case, the number of times that each pair of colored lights flash per minuet indicates the average person’s Wh per day depending on the category. The second case has all the onboard LED’s flash simultaneously at a different rhythm. When in this mode, every “blink” indicates a Wh used per person on a timescale of 1 hour to 1 minuet. 
 
 This display is intended to be viewed in an educational environment such as a museum or classroom, by children and young adults. As these two groups make up the majority of internet users, it is important for them to remember that the digital world has a physical impact.
 
